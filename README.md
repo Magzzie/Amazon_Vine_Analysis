@@ -28,7 +28,7 @@ value and impact of incentivized reviews on the market.
 1. Perform ETL on Amazon Product Reviews.
 2. Determine Bias of Vine Reviews.
 
-## Sources
+## Resources
 
 - Data Source: SQL_table_schema.sql, Amazon_Reviews_ETL.ipynb, amazon_reviews_us_Electronics_v1_00.tsv.gz, magzzie-electronics-reviews AWS RDS DataBase, Amazon_Vine_Analysis repository.
 - Software and Frameworks: PostgreSQL (11.15-R1), pgAdmin4 (6.7), Spark (3.2.1).
