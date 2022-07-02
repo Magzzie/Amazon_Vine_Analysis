@@ -35,7 +35,7 @@ value and impact of incentivized reviews on the market.
 - Libraries & Packages: PySpark, JAVA, PostgreSQL driver, MLlib. 
 - Online Tools: AWS RDS, Google Colaboratory Notebooks, GitHub.
 
-## Methods and Code:
+## Methods and Code
 
 Although Hadoop is one of the most popular open-source frameworks with a powerful storage and processing ecosystem, setting it up would be over the scale of operations for the BigMarket startup company. <br>
 Therefore, we will use PySpark, Amazon Web Services, and Google Colaboratory Notebooks, which allow faster, more flexible, and easily accessible cloud-based solutions <br>
