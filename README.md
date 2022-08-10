@@ -1,8 +1,7 @@
 # Amazon_Vine_Analysis
-We are analyzing Amazon reviews of electronic products written by members of the paid Amazon Vine program and independent customers using AWS RDS and PySpark.
+In this project, we use AWS RDS, PySpark, and SQL to analyze Amazon reviews of electronic products written by independent customers and members of the paid Amazon Vine program.
 
 ## Project Overview
-
 BigMarket is a startup company that helps businesses optimize their marketing efforts based on advanced market analysis. <br>
 
 One of the BigMarket clients, $ellBy company, has requested some market analytics to support the release of a large catalog of products on a leading retail website. <br>
@@ -43,7 +42,7 @@ to analyze an extensive dataset such as Amazon reviews for electronic products. 
 
 1. Perform ETL on Amazon electronic products reviews: <br>
 - We start by creating an AWS RDS database with public access and then establishing a new server in pgAdmin that is connected to the AWS RDS.
-- Next, we initiate an electronics-reviews database and create four tables to hold the data: customers_table, products_table, review_id_table, vine_table.
+- Next, we initiate an electronics-reviews database and create four tables to hold the data: customers_table, products_table, review_id_table, and vine_table.
 - After that, we start a new Google CoLab Notebook named Amazon_Reviews_ETL, install the necessary Spark libraries, and set up the connection to the database via PostgreSQL driver. 
 - Now, we begin the extraction of electronics reviews from the Amazon bucket URL into a DataFrame, then manipulate data types and create four separate DataFrames <br>
 that match the tables' schema in the electronics-reviews database. 
@@ -92,16 +91,9 @@ with the reviews of the Vine program members, and we found that: <br>
 
 Based on the results of the Amazon electronics reviews, we can conclude that:
 - In general, independent and unpaid product reviews on Amazon are more frequently favorable than incentivized reviews. 
-- Sponsoring reviews is a top-rated marketing strategy to advertise products; however, in the specific case of electronics, the paid reviews were more reserved in their evaluation than their unpaid counterparts with a 5-star distribution of 42.04% and 46.39%, respectively.
+- Sponsoring reviews is a top-rated marketing strategy to advertise products; however, in the specific case of electronics, the paid reviews were more reserved in their evaluation than their unpaid counterparts, with a 5-star distribution of 42.04% and 46.39%, respectively.
 - Based on this analysis, we do not recommend investing in the Vine program for incentivized reviewing services as it did not prove more valuable than random feedback. 
-- There are limitations to this dataset regarding reviews' text availability and sales revenue. Thus, further analysis is recommended to investigate the impact of reviews on sales and possibly building a machine learning model to better understand and predict the syntax of positive language used to influence the sales of a product. 
+- There are limitations to this dataset regarding reviews' text availability and sales revenue. Thus, further analysis is recommended to investigate the impact of reviews on sales and possibly build a machine learning model to understand their influence better and predict the syntax of positive language used to influence the sales of a product. 
 
 
 ---
-
-
-
-
-
-
-
